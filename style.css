@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: rgb(204, 175, 136);
+}
+#timer{
+    float: right;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    margin-right: 100px;
+}
+#score{
+    float: left;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    margin-left: 30px;
+}
+h2{
+    color: brown;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+#show_sketch{
+    float: right;
+    background-color: rgb(118, 132, 225);
+    margin-top: 1px;
+    margin-right: 9px;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    color: indianred;
+    margin-left: 40px;
+}
+canvas{
+    border: 2px dashed rgb(96, 53, 1);
+    border-radius: 15px;
+    animation-duration: 4s;
+    animation-name: D;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes D{
+    from{box-shadow: 5px 5px 100px rgb(255, 123, 0);}
+    to{box-shadow: 5px 5px 100px rgb(93, 39, 0);}
+}
